@@ -1,0 +1,19 @@
+{
+  "name": "havanama-app",
+  "version": "1.0.0",
+  "private": true,
+  "description": "هوانما - کیفیت هوای شهر",
+  "dependencies": {
+    "@capacitor/android": "^7.0.0",
+    "@capacitor/cli": "^7.0.0",
+    "@capacitor/core": "^7.0.0",
+    "@capacitor/status-bar": "^7.0.0",
+    "vazirmatn": "*"
+  },
+  "scripts": {
+    "build": "esbuild src/app.js --bundle --platform=browser --target=es2020 --outfile=www/app.js"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.0"
+  }
+}

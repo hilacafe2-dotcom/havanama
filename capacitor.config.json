@@ -1,0 +1,10 @@
+{
+  "appId": "ir.havanama.airquality",
+  "appName": "هوانما",
+  "webDir": "www",
+  "backgroundColor": "#f2f5fb",
+  "plugins": {
+    "CapacitorHttp": { "enabled": true },
+    "StatusBar": { "style": "DARK", "backgroundColor": "#1f6b3f", "overlaysWebView": false }
+  }
+}
